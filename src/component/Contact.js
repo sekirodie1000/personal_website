@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/header-img.svg"
+import contactImg from "../assets/img/header-img.svg";
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -39,7 +39,7 @@ export const Contact = () => {
         }
         setButtonText('Sending...');
         try {
-            let response = await fetch("http://localhost:5001/contact", {
+            let response = await fetch("/api/contact", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json;charset=utf-8",
