@@ -34,7 +34,7 @@ export const Contact = () => {
         e.preventDefault();
         if (!validateForm()) {
             setButtonText('All fields are required');
-            setTimeout(() => setButtonText('Send'), 3000); // 3秒后恢复为Send
+            setTimeout(() => setButtonText('Send'), 3000);
             return;
         }
         setButtonText('Sending...');
@@ -50,14 +50,14 @@ export const Contact = () => {
             setFormDetails(formInitialDetails);
             if (result.code === 200) {
                 setButtonText('Success');
-                setTimeout(() => setButtonText('Send'), 3000); // 3秒后恢复为Send
+                setTimeout(() => setButtonText('Send'), 3000);
             } else {
                 setButtonText('Fail');
-                setTimeout(() => setButtonText('Send'), 3000); // 3秒后恢复为Send
+                setTimeout(() => setButtonText('Send'), 3000);
             }
         } catch (error) {
             setButtonText('Fail');
-            setTimeout(() => setButtonText('Send'), 3000); // 3秒后恢复为Send
+            setTimeout(() => setButtonText('Send'), 3000);
             console.error('Error:', error);
         }
     };

@@ -324,18 +324,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 .image-container {
-  width: 400px; /* 定义圆的大小 */
-  height: 400px; /* 定义圆的大小 */
-  background-color: white; /* 圆的背景颜色 */
-  border-radius: 50%; /* 使背景变成圆形 */
-  display: flex; /* 使用flex布局来居中图片 */
-  align-items: center; /* 垂直居中 */
-  justify-content: center; /* 水平居中 */
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-container img {
-  max-width: 60%; /* 限制图片大小，确保图片不会超过圆的大小 */
-  height: auto; /* 保持图片的原始比例 */
+  max-width: 60%;
+  height: auto;
 }
 
 
@@ -346,7 +346,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /******About Me Css *********/
 .about-me {
   padding: 80px 0;
-  background-color: #242424; /* 调整为所需的背景颜色 */
+  background-color: #242424;
   color: white;
 }
 
@@ -501,7 +501,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills .nav-link.active {
-  border: 1px solid transparent; /* 设为透明，利用伪元素实现渐变边框 */
+  border: 1px solid transparent;
   position: relative;
 }
 
@@ -521,7 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .nav-link#projects-tabs-tab-second,
 .nav-link#projects-tabs-tab-third {
   position: relative;
-  border: none; /* 去掉默认边框 */
+  border: none;
 }
 
 .nav-link#projects-tabs-tab-first::before,
@@ -543,20 +543,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  background: white; /* 新增背景颜色 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 新增阴影效果 */
-  transition: transform 0.3s, box-shadow 0.3s; /* 新增平滑过渡效果 */
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .proj-imgbx:hover {
-  transform: translateY(-10px); /* 悬停时上移效果 */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 悬停时阴影增强效果 */
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .proj-imgbx img {
   width: 100%;
-  height: 250px; /* 固定高度以保持比例 */
-  object-fit: cover; /* 确保图片内容不会被拉伸变形 */
+  height: 250px;
+  object-fit: cover;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
@@ -615,14 +615,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .custom-modal .modal-content {
-  background-color: #242424; /* 黑色背景 */
-  border-radius: 20px; /* 圆角 */
-  color: #ffffff; /* 白色文字 */
+  background-color: #242424;
+  border-radius: 20px;
+  color: #ffffff;
 }
 
 .custom-modal .modal-header,
 .custom-modal .modal-footer {
-  border: none; /* 去掉模态框边框 */
+  border: none;
 }
 
 .custom-modal .modal-title {
